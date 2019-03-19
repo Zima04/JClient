@@ -1,0 +1,284 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.content-container {
+    max-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 35vh;
+}
+
+.welcome-image{
+    background-size: cover;
+    background: url("assets/png/руки.png");
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+}
+
+/*CIRCLES-CONTAINER*/
+.circles-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding:100px 0;
+}
+
+.circle{
+    flex: 1;
+    height: 230px;
+    width: 400px;
+    background-position: center !important;
+    background-size: cover !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle span{
+    font-size: 80px;
+}
+
+.first-circle .circle-span{
+    position: absolute;
+    left: 110px;
+    /*background: url("assets/png/авр.png");*/
+}
+.second-circle .circle-span{
+    position: absolute;
+    /*background: url("assets/png/ь.png");*/
+}
+.third-circle .circle-span{
+    position: absolute;
+    right: 120px;
+    /*background: url("assets/png/б.png");*/
+}
+
+.circle img{
+    width: 600px;
+}
+
+.calculator-text-container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 60px;
+    position: relative;
+}
+
+
+.hover-elements{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: -90px;
+    left: 40px;
+}
+
+.hover-elements .item{
+    padding: 30px;
+}
+
+.hover-elements .item:first-of-type{
+    transform: rotate(-45deg);
+    position: relative;
+    top: 40px;
+}
+.hover-elements .item:last-of-type{
+    transform: rotate(45deg);
+    position: relative;
+    top: 40px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.icon-element-1{
+    background: url("assets/ик1-01.svg");
+}
+.icon-element-2{
+    background: url("assets/ик2-01.svg");
+}
+.icon-element-3{
+    background: url("assets/ик3-01.svg");
+}
+
+
+/*CALCULATOR*/
+.calculator-container {
+    min-width: 1000px;
+    max-width: 1000px;
+    background-color: #f74f4f;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border-radius: 70px;
+    box-shadow: -9px 7px 30px 5px rgba(0,0,0,0.67);
+}
+
+.calc-header {
+    padding-bottom: 20px;
+}
+
+.calc-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-part-calc {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-part-calc .item {
+
+}
+
+.right-part-calc {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-calc-block {
+    display: flex;
+    flex-direction: row;
+}
+
+/*SLIDE_CONTAINER*/
+.slide-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+}
+
+.left-part-slide{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.left-part-slide .item{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-part-slide .item:hover{
+    color: #f74f4f ;
+    cursor: pointer;
+}
+
+.right-part-slide{
+    flex: 1;
+}
+
+
+#image-container{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.image-1{
+    background: url("https://sun1-20.userapi.com/c543105/v543105065/45f83/T4rqHvcCZac.jpg");
+}
+.image-2{
+    background: url("https://sun1-4.userapi.com/c635107/v635107967/da68/-mK5OpJxngs.jpg");
+}
+.image-3{
+    background: url("https://sun1-9.userapi.com/c635107/v635107967/da7f/DmsWgimFGd8.jpg");
+}
+
+
+/*YELLOW-CONTAINER*/
+.yellow-container{
+    background-color: #e0e070;
+    margin-top: 200px;
+    width: 100vw;
+}
+
+.yellow-block{
+    position: relative;
+    min-width: 1280px;
+    min-height: 600px;
+    /*width: 100vw;*/
+}
+
+.image-discript{
+    max-width: 400px;
+}
+.yellow-container-image-1{
+    position: absolute;
+    left: 15%;
+    bottom: 350px;
+    width: 330px;
+}
+
+.yellow-container-image-2{
+    position: absolute;
+    right: 20%;
+    bottom: 260px;
+}
+
+.yellow-container-image-3{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    width: 400px;
+}
+
+.yellow-container-image-4{
+    position: absolute;
+    right: 23%;
+    top: 200px;
+    width: 400px;
+}
+
+.image-discript-1{
+    position: absolute;
+    top: 230px;
+    left: 2%;
+}
+.image-discript-2{
+    position: absolute;
+    top: 160px;
+    right: 2%;
+}
+.image-discript-3{
+    position: absolute;
+    top: 400px;
+    left: 10%;
+}
+.image-discript-4{
+    position: absolute;
+    top: 450px;
+    right: 17%;
+}
+/*TABLE*/
+.table {
+    max-width: 1000px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid red; /* Параметры рамки */
+}
+
