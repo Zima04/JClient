@@ -12,234 +12,585 @@
 <div class="welcome-image">
 
 </div>
+
 <div class="content-container">
-    <h1 style="padding-bottom: 200px">сколько<br>стоит</h1>
+    <div class="welcome-header">
+        <!--<span>сколько</span>-->
+        <!--<span>стоит?</span>-->
+        <span>сколько стоит?</span>
+
+    </div>
     <div class="circles-container">
-        <div class="hover-elements">
-            <div class="item">
-                <div class="icon icon-element-1"></div>
-                <span>показов</span>
-            </div>
-            <div class="item">
-                <div class="icon icon-element-2"></div>
-                <span>просмотров</span>
-            </div>
-            <div class="item">
-                <div class="icon icon-element-3" ></div>
-                <span>охват</span>
-            </div>
-        </div>
-        <div class="first-circle circle">
-            <img src="assets/png/авр.png">
-            <span class="circle-span"> 10$ </span>
-        </div>
-        <div class="second-circle circle">
-            <img src="assets/png/ь.png">
+
+        <!--<div class="circles-image">-->
+
+        <!--</div>-->
+
+        <div class="first-circle circle" id="first-circle">
+            <!--<img src="assets/png/авр.png">-->
+            <label for="first-circle" class="hover-elements">
+                <div class="item">
+                    <div class="icon icon-element-1"></div>
+                    <!--<span>показов</span>-->
+                </div>
+                <div class="item">
+                    <div class="icon icon-element-2"></div>
+                    <!--<span>просмотров</span>-->
+                </div>
+                <div class="item">
+                    <div class="icon icon-element-3"></div>
+                    <!--<span>охват</span>-->
+                </div>
+            </label>
             <span class="circle-span"> 10$ </span>
         </div>
 
-        <div class="third-circle circle">
-            <img src="assets/png/б.png">
-            <span class="circle-span"> 10$ </span>
+        <div class="second-circle circle" id="second-circle">
+            <!--<img src="assets/png/ь.png">-->
+            <label for="third-circle" class="hover-elements">
+                <div class="item">
+                    <div class="icon icon-element-1"></div>
+                    <!--<span>показов</span>-->
+                </div>
+                <div class="item">
+                    <div class="icon icon-element-2"></div>
+                    <!--<span>просмотров</span>-->
+                </div>
+                <div class="item">
+                    <div class="icon icon-element-3"></div>
+                    <!--<span>охват</span>-->
+                </div>
+            </label>
+            <span class="circle-span"> 30$ </span>
+        </div>
+
+        <div class="third-circle circle" id="third-circle">
+            <!--<img src="assets/png/б.png">-->
+            <label for="third-circle" class="hover-elements">
+                <div class="item">
+                    <div class="icon icon-element-1"></div>
+                    <!--<span>показов</span>-->
+                </div>
+                <div class="item">
+                    <div class="icon icon-element-2"></div>
+                    <!--<span>просмотров</span>-->
+                </div>
+                <div class="item">
+                    <div class="icon icon-element-3"></div>
+                    <!--<span>охват</span>-->
+                </div>
+            </label>
+            <span class="circle-span"> 60$ </span>
         </div>
     </div>
     <div class="calculator-text-container">
         <h3>
-            Основы свойства transition
+            Расчет
         </h3>
         <div class="text">
-            Чтобы этого добиться, нужно, в первую очередь,
-            переместить этот контейнер выше, за пределы контейнера
-            с эффектом. Для этого мы изменим ему свойство top,
-            и стили для блока теперь будут выглядеть так:
+            Рассчитывайте свой рекламный бюджет с точностью до копейки.
+            Оплата просмотра происходит только в том случае,
+            если пользователь просматривает ваш видеоролик до конца.
         </div>
     </div>
-    <h3>калькулятор стоимости</h3>
-    <div class="calculator-container">
-        <div class="calc-header">
-            социально димографические характеристики:
-        </div>
-        <div class="calc-body">
-            <div class="left-part-calc">
-                <div class="item">
-                    Пол
+    <h1>калькулятор стоимости</h1>
+    <div class="calculator-container first-step">
+        <form action="https://formspree.io/zima04zima@gmail.com" method="POST">
+            <div id="calculator-1">
+                <div class="calc-header">
+                    социально димографические характеристики :
                 </div>
-                <div class="item">
-                    Возраст
+                <div class="calc-body">
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Пол
+                        </div>
+                        <div class="radio-calc">
+                            <div>
+                                <input type="radio" id="test1" name="man" checked>
+                                <label for="test1">M</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="test2" name="woman">
+                                <label for="test2">Ж</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="test3" name="whoIsIt?">
+                                <label for="test3">Оба</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Возраст
+                        </div>
+                        <div class="input-calc-block double-row">
+                            <div class="item">
+                <span class="label">
+                от
+                </span>
+                                <input type="text" name="fromAge">
+                            </div>
+                            <div class="item">
+                <span class="label">
+                до
+                </span>
+                                <input type="text" name="toAge">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-calc" style="padding-top: 0">
+                        <div class="row-calc-header">
+                            Доход
+                        </div>
+                        <div class="input-calc-block double-row">
+                            <div class="item">
+                <span class="label">
+                от
+                </span>
+                                <input type="text" name="fromMoney">
+                            </div>
+                            <div class="item">
+                <span class="label">
+                до
+                </span>
+                                <input type="text" name="toMoney">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-calc" style="padding-top: 0">
+                        <div class="row-calc-header">
+                            Образование
+                        </div>
+                        <div class="input-calc-block ">
+                            <input type="text" name="education">
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Расположение
+                        </div>
+                        <div class="input-calc-block double-row">
+                            <div class="item">
+                <span class="label">
+                Страна
+                </span>
+                                <input type="text" name="country">
+                            </div>
+                            <div class="item">
+                <span class="label">
+                Регион
+                </span>
+                                <input type="text" name="region">
+                            </div>
+                            <div class="item">
+                <span class="label">
+                Город
+                </span>
+                                <input type="text" name="city">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">
-                    Доход
+                <div class="line-elements">
+                    <!--<img class="left-arrow" src="assets/png/arrow.svg">-->
+                    <img class="right-arrow" src="assets/png/arrow.svg" onclick="selectTab(2,1)">
                 </div>
-                <div class="item">
-                    Образование
+            </div>
+            <div id="calculator-2">
+                <div class="calc-header">
+                    интересы и привычки :
+                </div>
+                <div class="calc-body">
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Аудит по интересам
+                        </div>
+                        <div class="input-calc-block">
+                            <input type="text" name="interests">
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Потребительские привилегии
+                        </div>
+                        <div class="input-calc-block">
+                            <input type="text" name="privileges">
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Пользовательские аудитории по интересам
+                        </div>
+                        <div class="input-calc-block">
+                            <input type="text" name="auditories">
+                        </div>
+                    </div>
+                    <div class="row-calc" style="padding-bottom: 25px">
+                        <div class="row-calc-header">
+                            Ремаркетинг
+                        </div>
+                        <div class="radio-calc">
+                            <div>
+                                <input type="radio" id="test1" name="remarketing_yes" checked>
+                                <label for="test1">Да</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="test2" name="remarketing_no">
+                                <label for="test2">Нет</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line-elements">
+                    <img class="left-arrow" src="assets/png/arrow.svg" onclick="selectTab(1,2)">
+                    <img class="right-arrow" src="assets/png/arrow.svg" onclick="selectTab(3,2)">
+                </div>
+            </div>
+            <div id="calculator-3">
+                <div class="calc-header">
+                    заполните форму :
+                </div>
+                <div class="calc-body">
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Ваше ФИО
+                        </div>
+                        <div class="input-calc-block">
+                            <input type="text" name="FIO">
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Ваш E-mail
+                        </div>
+                        <div class="input-calc-block">
+                            <input type="text" name="email">
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <div class="row-calc-header">
+                            Комментарий
+                        </div>
+                        <div class="input-calc-block">
+                            <input type="text" name="comment">
+                        </div>
+                    </div>
+                </div>
+                <div class="send-button-container" >
+                    <input class="send-button" type="submit" value="Отправить">
+                </div>
+                <div class="line-elements">
+                    <img class="left-arrow" src="assets/png/arrow.svg" onclick="selectTab(2,3)">
                 </div>
 
             </div>
-            <div class="right-part-calc">
-                <div class="radio-calc">
-                    <input class="radio" type="radio">
-                    <input class="radio" type="radio">
-                    <input class="radio" type="radio">
-                </div>
-                <div class="input-calc-block">
-                    <div class="item">
-                        <span class="label">
-                            от
-                        </span>
-                        <input type="text">
-                    </div>
-                    <div class="item">
-                        <span class="label">
-                            до
-                        </span>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="input-calc-block">
-                    <div class="item">
-                        <span class="label">
-                            от
-                        </span>
-                        <input type="text">
-                    </div>
-                    <div class="item">
-                        <span class="label">
-                            до
-                        </span>
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="input-calc-block">
-                    <input type="text">
-                </div>
-            </div>
-        </div>
+        </form>
     </div>
     <h2>* sfdgsfdg sdfgsdfg sdfgsdfgs dfg sdfg sdfg sdfg s</h2>
-    <h3>какие форматы рекламы доступны?</h3>
+    <h1 style="padding: 20px;">какие форматы рекламы доступны?</h1>
     <div class="slide-container">
-        <div class="left-part-slide">
-            <div class="item" onmouseover="hoverOnItem(1)">
-                <span class="slide-header">
-                    asdfasdf asdfa sdf asdf
-                </span>
-                <div class="slide-text">
-                    Снова наступил бесконечный вечер.
-                    Мир вокруг меня погрузился в мрачные сумеречные
-                    очертания заходящего солнца. Весь этот день я провел
-                    на работе в бесполезных попытках перестать имитировать
-                    трудовую деятельность. Улица была разукрашена пестрыми
-                    оттенками послевоенного бремени. Огрубевшие от сотен войн,
-                    останки некогда величественных
-                    зданий погрузились в тошноту руин и строительного мусора.
-                </div>
-            </div>
-            <div class="item" onmouseover="hoverOnItem(2)">
-                <span class="slide-header">
-                    bxvcbxcvbs fsdf xvcb
-                </span>
-                <div class="slide-text">
-                    Собачий вой солдатских песен доносился от своры вооруженных
-                    пороховыми палками бездомных псов. Они танцевали на местной
-                    площадке в такт бездушной густой музыки, написанной глухими
-                    музыкантами. Кукарекая на подмостье из трупов, политикан в
-                    шкуре из дорогой людской кожи провозглашал новую старую песнь
-                    о скорой свободе и безоблачном будущем всех рас и народов.
-                </div>
-            </div>
-            <div class="item" onmouseover="hoverOnItem(3)">
-                <span class="slide-header">
-                    wertwre tfds xcvvb
-                </span>
-                <div class="slide-text">
-                    Мой дырявый карман заполнялся его зажигательной речью из
-                    бессмысленно подобранных слов. Опустив билетик за его кандидатуру,
-                    я получил талон на бесплатную пинту мочегонного пива.
-                </div>
-            </div>
+        <div class="headers">
+            <h2 class="slide-header" onclick="hoverOnItem(1)">
+                Первый слайд
+            </h2>
+            <h2 class="slide-header" onclick="hoverOnItem(2)">
+                Второй слайд
+            </h2>
+            <h2 class="slide-header" onclick="hoverOnItem(3)">
+                Третий слайд
+            </h2>
         </div>
-        <div class="right-part-slide">
-            <div id="image-container" class="image-1">
+        <div id="image-container" class="image-1">
+        </div>
+        <div class="image-text">
+            <h3>Принципы работы</h3>
+            <div class="slide-text">
+                Показ роликов осуществляется как на видеохостинге YouTube, так и в
+                других партнёрских КМС ресурсах: в видео,
+                играх и приложениях для IOS и Android. Пользователи могут
+                пропустить ваше видео TrueView In-Stream только через 5 секунд
+                после старта видеоролика.
+            </div>
+            <h3>Где показываются объявления</h3>
+            <div class="slide-text">
+                Объявления TrueView In-Stream отображаются в других видеороликах на
+                страницах просмотра YouTube,
+                а также на партнерских видеосайтах и в приложениях, входящих в КМС.
+            </div>
+            <h3>​Оплата</h3>
+            <div class="slide-text">
+                Оплачивать просмотр придётся только в случае если:<br>
+                1. Пользователь досмотрел не менее 30 сек.
+                объявления (либо весь видеоролик длительностью менее 30 секунд).<br>
+                2. Пользователь перешёл по сопутствующему баннеру или оверлей содержащим C2A.
             </div>
         </div>
     </div>
-
+</div>
+<div class="pink-container">
     <h1>Базовые принципы видеокреатива для youtube</h1>
-    <div class="yellow-container">
-    <div class="yellow-block">
-        <img class="yellow-container-image-1" src="assets/png/рупор.png">
-        <img class="yellow-container-image-2" src="assets/png/ножніцы.png">
-        <img class="yellow-container-image-3" src="assets/png/секундомер.png">
-        <img class="yellow-container-image-4" src="assets/png/телефон.png">
-        <div class="image-discript image-discript-1">
-            <h3>Теоретические основы </h3>
-            <span>В данной работе будет изучена
-                трёхшаговая разностная схема расщеплений с весами на
-                примере решения трёхмерного уравнения
-                теплопроводности</span>
-        </div>
-        <div class="image-discript image-discript-2">
-            <h3>Теоретические основы </h3>
-            <span>В работе также будут проведены различные вычислительные
-                эксперименты,
-                проверяющие эффективность разработанного алгоритма и программы</span>
-        </div>
-        <div class="image-discript image-discript-3">
-            <h3>Теоретические основы </h3>
-            <span>
-                Эксперименты будут проведены на персональном
-                компьютере с небольшими мощностями, на кластере
-                с использованием облачных вычислений, а также на
-                компьютере с мощным процессором.
-            </span>
-        </div>
-        <div class="image-discript image-discript-4">
-            <h3>Теоретические основы </h3>
-            <span>
-                Параллельные вычисления – такой способ организации
-                компьютерных вычислений, при котором программы
-                разрабатываются как набор взаимодействующих
-                вычислительных процессов, работающих параллельно
-            </span>
-        </div>
-    </div>
-    </div>
-    <h1>Наши клиенты</h1>
-    <table class="table">
+    <table class="pink-table">
         <tr>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
+            <td>
+                <h3>
+                    четкий призыв к действию
+                </h3>
+                <div class="table-image">
+                    <img src="assets/рупор.svg">
+                </div>
+                <p>
+                    Объясните, что нужно сделать
+                    после просмотра рекламы.
+                    Выберите оптимальный момент
+                    для призыва к действию
+                    Используйте голос,
+                    графику и крупный текст.
+                </p>
+            </td>
+            <td>
+                <h3>
+                    Краткость и темп
+                </h3>
+                <div class="table-image">
+                    <img src="assets/crop.png">
+                </div>
+                <p>
+                    Удерживайте внимание пользователей используя частую смену кадров и высокий ритм.
+                    Старайтесь сократить 30 секунд до 15, а 15 до 12 или хотя бы показать предложение в начале
+                    ролика.
+                </p>
+            </td>
+            <td>
+                <h3>
+                    5 секунд, чтоб заинтересовать
+                </h3>
+                <div class="table-image">
+                    <img src="assets/clocks.png">
+                </div>
+                <p>
+                    Зрители могут пропустить рекламу. Вовлекайте с самого начала ролика - развлекая,
+                    показав проблему или сделав предложение. Не заставляйте ждать. Используйте звук.
+                </p>
+            </td>
         </tr>
         <tr>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
+            <td>
+                <h3>
+                    Небольшой экран
+                </h3>
+                <div class="table-image">
+                    <img src="assets/phone.png">
+                </div>
+                <p>
+                    Большинство просмотров YouTube происходит с мобильного. Крупные планы,
+                    большой текст и графика, яркие кадры с частой сменой показывают результаты на мобильных.
+                </p>
+            </td>
+            <td>
+                <h3>
+                    Высокое качество
+                </h3>
+                <div class="table-image">
+                    <img src="assets/fingers.png">
+                </div>
+                <p>
+                    Не скупитесь на хорошую видеотехнику. Сегодня на рынке
+                    доступно огромное количество сравнительно недорогих
+                    відео-устройств, позволяющих снимать в отличном качестве.
+                </p>
+            </td>
+            <td>
+                <h3>
+                    Креативная заставка
+                </h3>
+                <div class="table-image">
+                    <img src="assets/duck.png">
+                </div>
+                <p>
+                    Вовлекающая заставка к вашему видеоролику - это
+                    отличный инструмент для привлечения аудитории и роста органическиих просмотров на вашем канале.
+                </p>
+            </td>
         </tr>
+
+        <!--<img class="yellow-container-image-2" src="assets/png/ножніцы.png">-->
+        <!--<img class="yellow-container-image-3" src="assets/png/секундомер.png">-->
+        <!--<img class="yellow-container-image-4" src="assets/png/телефон.png">-->
+        <!--<div class="image-discript image-discript-1">-->
+        <!--<h3>Теоретические основы </h3>-->
+        <!--<span>В данной работе будет изучена-->
+        <!--трёхшаговая разностная схема расщеплений с весами на-->
+        <!--примере решения трёхмерного уравнения-->
+        <!--теплопроводности</span>-->
+        <!--</div>-->
+        <!--<div class="image-discript image-discript-2">-->
+        <!--<h3>Теоретические основы </h3>-->
+        <!--<span>В работе также будут проведены различные вычислительные-->
+        <!--эксперименты,-->
+        <!--проверяющие эффективность разработанного алгоритма и программы</span>-->
+        <!--</div>-->
+        <!--<div class="image-discript image-discript-3">-->
+        <!--<h3>Теоретические основы </h3>-->
+        <!--<span>-->
+        <!--Эксперименты будут проведены на персональном-->
+        <!--компьютере с небольшими мощностями, на кластере-->
+        <!--с использованием облачных вычислений, а также на-->
+        <!--компьютере с мощным процессором.-->
+        <!--</span>-->
+        <!--</div>-->
+        <!--<div class="image-discript image-discript-4">-->
+        <!--<h3>Теоретические основы </h3>-->
+        <!--<span>-->
+        <!--Параллельные вычисления – такой способ организации-->
+        <!--компьютерных вычислений, при котором программы-->
+        <!--разрабатываются как набор взаимодействующих-->
+        <!--вычислительных процессов, работающих параллельно-->
+        <!--</span>-->
+        <!--</div>-->
     </table>
-    <div class="footer">
+</div>
+<h1>наши кейсы</h1>
+<div class="keyses-container">
+    <div class="keyses-description-block">
+        <!--<div class="image-container">-->
+        <img id="monitor" src="assets/monitors/1.png">
+        <!--</div>-->
+        <div class="keyses-description">
+            ГЕО: Республика Беларусь<br><br>
+
+            Ролик: Лекарственное средство Магвит.
+            Рекламный ролик<br><br>
+
+            Длительность ролика: 17 секунд<br><br>
+
+            Достигнутые показатели:<br><br>
+
+            - Итоговое количество просмотров видео на YouTube — более 60 000 просмотров.<br><br>
+
+            - Процент удержания аудитории — более 70%.<br><br>
+
+            - Коэффициент просмотров — более 75%<br><br>
+        </div>
+    </div>
+    <div class="keyses-slider-container">
+
+        <div class="keyses-slider-actions">
+            <div class="left-arrow" onclick="changeMonitor(-1)">
+
+            </div>
+            <div class="monitor-logos">
+                <img id="monitor-logo" src="assets/logos/logo1-monitor.png">
+            </div>
+            <div class="right-arrow" onclick="changeMonitor(1)">
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="advertising-container">
+    <div class="advertising-block">
+        <div class="advertising-left">
+            <h3>Стоимость и условия<br>Настройки рекламы на youtube</h3>
+            <h2> от 200 byn</h2>
+        </div>
+        <div class="advertising-right">
+            <div class="advertising-button">
+                заказать
+            </div>
+        </div>
+    </div>
+</div>
+<h1>Наши клиенты</h1>
+<table class="table">
+    <tr>
+        <td><img src="assets/logos/logo1.png"></td>
+        <td><img src="assets/logos/logo2.png"></td>
+        <td><img src="assets/logos/logo3.png"></td>
+    </tr>
+    <tr>
+        <td><img src="assets/logos/logo4.png"></td>
+        <td><img src="assets/logos/logo5.png"></td>
+        <td><img src="assets/logos/logo6.png"></td>
+    </tr>
+</table>
+<div class="footer">
+    <div class="background-logo">
+        <img class="background-logo" src="assets/png/вап.png">
+    </div>
+    <div class="row">
+        <h3 class="footer-header">
+            Заполните форму и мы с вами свяжемся
+        </h3>
+        <div class="empty"></div>
+    </div>
+    <div class="row">
         <div class="left-part-footer">
-            <h3>
-                Заполните форму и мы с вами свяжемся
-            </h3>
             <input type="text">
             <input type="text">
             <input type="text">
             <input type="text">
             <input type="text">
-            <button>Отправить заявку</button>
         </div>
         <div class="right-part-footer">
-
-        </div>
+            <div style="overflow:hidden;width: 700px;position: relative;">
+                <iframe width="700" height="350"
+                        src="https://maps.google.com/maps?width=700&amp;height=350&amp;hl=en&amp;q=%D0%BC%D0%B8%D0%BD%D1%81%D0%BA%20%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D1%86%D0%B8%D1%83%D1%81%D0%B0%209%D0%B0+(%D0%9E%D0%9E%D0%9E%20%22%D0%90%D0%BF%D0%9A%D0%BB%D0%B8%D0%B5%D0%BD%D1%82)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <style>#gmap_canvas img {
+                    max-width: none !important;
+                    background: none !important
+                }</style>
+            </div>
+            <br/></div>
     </div>
+    <div class="row">
+        <div class="footer-button-container">
+            <div class="footer-button">
+                отправить
+            </div>
+        </div>
+        <div class="empty"></div>
+    </div>
+
+</div>
 </div>
 <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script>
+    const TEXTS = [
+        '', '', ''
+    ];
+    let currentCount = 0;
+    let selectMonitor = 1;
+
     function hoverOnItem(itemNum) {
         document.getElementById('image-container').className = '';
         document.getElementById('image-container').classList.add(`image-${itemNum}`);
+    }
+
+    function changeMonitor(num) {
+        selectMonitor += num;
+        if (selectMonitor > 3) {
+            selectMonitor = 1;
+        }
+        if (selectMonitor < 1) {
+            selectMonitor = 3
+        }
+        console.log(selectMonitor, num);
+        document.getElementById('monitor').setAttribute('src', `assets/monitors/${selectMonitor}.png`);
+        document.getElementById('monitor-logo').setAttribute('src', `assets/logos/logo${selectMonitor}-monitor.png`);
+
+    }
+
+    function selectTab(openId, closeId) {
+        $('.calculator-container').addClass('rev-slide');
+        document.getElementById(`calculator-${closeId}`).style.display = 'none';
+        document.getElementById(`calculator-${openId}`).style.display = 'flex';
+        setTimeout(() => {
+
+            $('.calculator-container').removeClass('rev-slide');
+        }, 1500);
     }
 </script>
 </body>
