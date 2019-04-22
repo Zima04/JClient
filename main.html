@@ -10,36 +10,26 @@
 </head>
 <body>
 <div class="welcome-image">
-
 </div>
-
 <div class="content-container">
     <div class="welcome-header">
-        <!--<span>сколько</span>-->
-        <!--<span>стоит?</span>-->
         <span>сколько стоит?</span>
 
     </div>
     <div class="circles-container">
-
-        <!--<div class="circles-image">-->
-
-        <!--</div>-->
-
         <div class="first-circle circle" id="first-circle">
-            <!--<img src="assets/png/авр.png">-->
             <label for="first-circle" class="hover-elements">
                 <div class="item">
                     <div class="icon icon-element-1"></div>
-                    <!--<span>показов</span>-->
+                    <span>N показов</span>
                 </div>
                 <div class="item">
                     <div class="icon icon-element-2"></div>
-                    <!--<span>просмотров</span>-->
+                    <span>N просмотров</span>
                 </div>
                 <div class="item">
                     <div class="icon icon-element-3"></div>
-                    <!--<span>охват</span>-->
+                    <span>N охват</span>
                 </div>
             </label>
             <span class="circle-span"> 10$ </span>
@@ -50,15 +40,15 @@
             <label for="third-circle" class="hover-elements">
                 <div class="item">
                     <div class="icon icon-element-1"></div>
-                    <!--<span>показов</span>-->
+                    <span>N показов</span>
                 </div>
                 <div class="item">
                     <div class="icon icon-element-2"></div>
-                    <!--<span>просмотров</span>-->
+                    <span>N просмотров</span>
                 </div>
                 <div class="item">
                     <div class="icon icon-element-3"></div>
-                    <!--<span>охват</span>-->
+                    <span>N охват</span>
                 </div>
             </label>
             <span class="circle-span"> 30$ </span>
@@ -69,15 +59,15 @@
             <label for="third-circle" class="hover-elements">
                 <div class="item">
                     <div class="icon icon-element-1"></div>
-                    <!--<span>показов</span>-->
+                    <span>N показов</span>
                 </div>
                 <div class="item">
                     <div class="icon icon-element-2"></div>
-                    <!--<span>просмотров</span>-->
+                    <span>N просмотров</span>
                 </div>
                 <div class="item">
                     <div class="icon icon-element-3"></div>
-                    <!--<span>охват</span>-->
+                    <span>N охват</span>
                 </div>
             </label>
             <span class="circle-span"> 60$ </span>
@@ -94,13 +84,13 @@
         </div>
     </div>
     <h1>калькулятор стоимости</h1>
-    <div class="calculator-container first-step">
-        <form action="https://formspree.io/zima04zima@gmail.com" method="POST">
-            <div id="calculator-1">
+    <form action="https://formspree.io/zima04zima@gmail.com" method="POST">
+        <div class="calc-class slider calculator-container">
+            <div>
                 <div class="calc-header">
                     социально димографические характеристики :
                 </div>
-                <div class="calc-body">
+                <div class="calc-body" id="calculator-1">
                     <div class="row-calc">
                         <div class="row-calc-header">
                             Пол
@@ -193,15 +183,13 @@
                     </div>
                 </div>
                 <div class="line-elements">
-                    <!--<img class="left-arrow" src="assets/png/arrow.svg">-->
-                    <img class="right-arrow" src="assets/png/arrow.svg" onclick="selectTab(2,1)">
                 </div>
             </div>
-            <div id="calculator-2">
+            <div>
                 <div class="calc-header">
                     интересы и привычки :
                 </div>
-                <div class="calc-body">
+                <div class="calc-body" id="calculator-2">
                     <div class="row-calc">
                         <div class="row-calc-header">
                             Аудит по интересам
@@ -226,32 +214,32 @@
                             <input type="text" name="auditories">
                         </div>
                     </div>
-                    <div class="row-calc" style="padding-bottom: 25px">
+                    <div class="row-calc" style="padding-bottom: 25px;padding-top: 25px">
                         <div class="row-calc-header">
                             Ремаркетинг
                         </div>
                         <div class="radio-calc">
                             <div>
-                                <input type="radio" id="test1" name="remarketing_yes" checked>
+                                <input type="radio" id="test4" name="remarketing_yes" checked>
                                 <label for="test1">Да</label>
                             </div>
                             <div>
-                                <input type="radio" id="test2" name="remarketing_no">
+                                <input type="radio" id="test5" name="remarketing_no">
                                 <label for="test2">Нет</label>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="line-elements">
-                    <img class="left-arrow" src="assets/png/arrow.svg" onclick="selectTab(1,2)">
-                    <img class="right-arrow" src="assets/png/arrow.svg" onclick="selectTab(3,2)">
+                    <!--<img class="left-arrow" src="assets/png/arrow.svg" onclick="selectTab(1,2)">-->
+                    <!--<img class="right-arrow" src="assets/png/arrow.svg" onclick="selectTab(3,2)">-->
                 </div>
             </div>
-            <div id="calculator-3">
+            <div>
                 <div class="calc-header">
                     заполните форму :
                 </div>
-                <div class="calc-body">
+                <div class="calc-body" id="calculator-3">
                     <div class="row-calc">
                         <div class="row-calc-header">
                             Ваше ФИО
@@ -268,7 +256,7 @@
                             <input type="text" name="email">
                         </div>
                     </div>
-                    <div class="row-calc">
+                    <div class="row-calc" style="padding-bottom: 15px">
                         <div class="row-calc-header">
                             Комментарий
                         </div>
@@ -277,53 +265,53 @@
                         </div>
                     </div>
                 </div>
-                <div class="send-button-container" >
+                <div class="send-button-container">
                     <input class="send-button" type="submit" value="Отправить">
                 </div>
                 <div class="line-elements">
-                    <img class="left-arrow" src="assets/png/arrow.svg" onclick="selectTab(2,3)">
                 </div>
 
             </div>
-        </form>
-    </div>
-    <h2>* sfdgsfdg sdfgsdfg sdfgsdfgs dfg sdfg sdfg sdfg s</h2>
-    <h1 style="padding: 20px;">какие форматы рекламы доступны?</h1>
-    <div class="slide-container">
-        <div class="headers">
-            <h2 class="slide-header" onclick="hoverOnItem(1)">
-                Первый слайд
-            </h2>
-            <h2 class="slide-header" onclick="hoverOnItem(2)">
-                Второй слайд
-            </h2>
-            <h2 class="slide-header" onclick="hoverOnItem(3)">
-                Третий слайд
-            </h2>
         </div>
-        <div id="image-container" class="image-1">
+    </form>
+    <h5>* sfdgsfdg sdfgsdfg sdfgsdfgs dfg sdfg sdfg sdfg s</h5>
+    <h1>какие форматы рекламы доступны?</h1>
+    <div class="slide-container slider advertising-format-class">
+        <div class="slide-item">
+            <img src="assets/png/слайд1.png">
+            <div class="image-text">
+                <h3>Принципы работы</h3>
+                <div class="slide-text">
+                    Показ роликов осуществляется как на видеохостинге YouTube, так и в
+                    других партнёрских КМС ресурсах: в видео,
+                    играх и приложениях для IOS и Android. Пользователи могут
+                    пропустить ваше видео TrueView In-Stream только через 5 секунд
+                    после старта видеоролика.
+                </div>
+            </div>
         </div>
-        <div class="image-text">
-            <h3>Принципы работы</h3>
-            <div class="slide-text">
-                Показ роликов осуществляется как на видеохостинге YouTube, так и в
-                других партнёрских КМС ресурсах: в видео,
-                играх и приложениях для IOS и Android. Пользователи могут
-                пропустить ваше видео TrueView In-Stream только через 5 секунд
-                после старта видеоролика.
+        <div class="slide-item">
+            <img src="assets/png/слайд2.png">
+            <div class="image-text">
+
+                <h3>Где показываются объявления</h3>
+                <div class="slide-text">
+                    Объявления TrueView In-Stream отображаются в других видеороликах на
+                    страницах просмотра YouTube,
+                    а также на партнерских видеосайтах и в приложениях, входящих в КМС.
+                </div>
             </div>
-            <h3>Где показываются объявления</h3>
-            <div class="slide-text">
-                Объявления TrueView In-Stream отображаются в других видеороликах на
-                страницах просмотра YouTube,
-                а также на партнерских видеосайтах и в приложениях, входящих в КМС.
-            </div>
-            <h3>​Оплата</h3>
-            <div class="slide-text">
-                Оплачивать просмотр придётся только в случае если:<br>
-                1. Пользователь досмотрел не менее 30 сек.
-                объявления (либо весь видеоролик длительностью менее 30 секунд).<br>
-                2. Пользователь перешёл по сопутствующему баннеру или оверлей содержащим C2A.
+        </div>
+        <div class="slide-item">
+            <img src="assets/png/слайд1.png">
+            <div class="image-text">
+                <h3>​Оплата</h3>
+                <div class="slide-text">
+                    Оплачивать просмотр придётся только в случае если:<br>
+                    1. Пользователь досмотрел не менее 30 сек.
+                    объявления (либо весь видеоролик длительностью менее 30 секунд).<br>
+                    2. Пользователь перешёл по сопутствующему баннеру или оверлей содержащим C2A.
+                </div>
             </div>
         </div>
     </div>
@@ -451,47 +439,88 @@
     </table>
 </div>
 <h1>наши кейсы</h1>
-<div class="keyses-container">
+<div class="keyses-container keyses-class slider">
     <div class="keyses-description-block">
-        <!--<div class="image-container">-->
-        <img id="monitor" src="assets/monitors/1.png">
-        <!--</div>-->
-        <div class="keyses-description">
-            ГЕО: Республика Беларусь<br><br>
+        <div style="display: flex;flex-direction: row;align-items: center">
+            <img id="monitor" src="assets/monitors/1.png">
+            <div class="keyses-description">
+                ГЕО: Республика Беларусь<br><br>
 
-            Ролик: Лекарственное средство Магвит.
-            Рекламный ролик<br><br>
+                Ролик: Лекарственное средство Магвит.
+                Рекламный ролик<br><br>
 
-            Длительность ролика: 17 секунд<br><br>
+                Длительность ролика: 17 секунд<br><br>
 
-            Достигнутые показатели:<br><br>
+                Достигнутые показатели:<br><br>
 
-            - Итоговое количество просмотров видео на YouTube — более 60 000 просмотров.<br><br>
+                - Итоговое количество просмотров видео на YouTube — более 60 000 просмотров.<br><br>
 
-            - Процент удержания аудитории — более 70%.<br><br>
+                - Процент удержания аудитории — более 70%.<br><br>
 
-            - Коэффициент просмотров — более 75%<br><br>
+                - Коэффициент просмотров — более 75%<br><br>
+            </div>
+        </div>
+        <div class="monitor-logos">
+            <img id="monitor-logo" src="assets/logos/logo1-monitor.png">
         </div>
     </div>
-    <div class="keyses-slider-container">
+    <div class="keyses-description-block">
+        <div style="display: flex;flex-direction: row;align-items: center">
+            <img id="monitor" src="assets/monitors/2.png">
+            <div class="keyses-description">
 
-        <div class="keyses-slider-actions">
-            <div class="left-arrow" onclick="changeMonitor(-1)">
+                ГЕО: Западная Европа и Россия<br><br>
 
-            </div>
-            <div class="monitor-logos">
-                <img id="monitor-logo" src="assets/logos/logo1-monitor.png">
-            </div>
-            <div class="right-arrow" onclick="changeMonitor(1)">
+                Ролик: Belarus. Above expectations<br><br>
 
+                Длительность ролика: 2 минуты 40 секунд<br><br>
+
+                Достигнутые показатели:<br><br>
+
+                - Итоговое количество просмотров видео на YouTube — более 200 000 просмотров.<br><br>
+
+                - Процент удержания аудитории — более 60%.<br><br>
+
+                - Коэффициент просмотров — более 80%
             </div>
+        </div>
+        <div class="monitor-logos">
+            <img id="monitor-logo" src="assets/logos/logo2-monitor.png">
+        </div>
+    </div>
+    <div class="keyses-description-block">
+        <div style="display: flex;flex-direction: row;align-items: center">
+            <img id="monitor" src="assets/monitors/3.png">
+            <div class="keyses-description">
+                Кольцевой формат рекламы - NEW!<br><br>
+
+                ГЕО: Республика Беларусь<br><br>
+
+                Группа роликов: 1. 1AKB.by (семья)<br>
+                2. Сеть аккумуляторных<br>
+                магазинов 1AKB.by<br>
+
+                Длительность роликов: 1. 33 секунды<br>
+                2. 44 секунды<br><br>
+
+                Достигнутые показатели:<br><br>
+
+                - Итоговое количество просмотров видео на YouTube — более 130 000 просмотров.<br><br>
+
+                - Процент удержания аудитории — более 65%.<br><br>
+
+                - Коэффициент просмотров — более 70%<br><br>
+            </div>
+        </div>
+        <div class="monitor-logos">
+            <img id="monitor-logo" src="assets/logos/logo3-monitor.png">
         </div>
     </div>
 </div>
 <div class="advertising-container">
     <div class="advertising-block">
         <div class="advertising-left">
-            <h3>Стоимость и условия<br>Настройки рекламы на youtube</h3>
+            <h4>Стоимость и условия<br>Настройки рекламы на youtube</h4>
             <h2> от 200 byn</h2>
         </div>
         <div class="advertising-right">
@@ -502,18 +531,14 @@
     </div>
 </div>
 <h1>Наши клиенты</h1>
-<table class="table">
-    <tr>
-        <td><img src="assets/logos/logo1.png"></td>
-        <td><img src="assets/logos/logo2.png"></td>
-        <td><img src="assets/logos/logo3.png"></td>
-    </tr>
-    <tr>
-        <td><img src="assets/logos/logo4.png"></td>
-        <td><img src="assets/logos/logo5.png"></td>
-        <td><img src="assets/logos/logo6.png"></td>
-    </tr>
-</table>
+<div class="your-class slider">
+    <div class="slide"><img src="assets/logos/logo1.png"></div>
+    <div class="slide"><img src="assets/logos/logo2.png"></div>
+    <div class="slide"><img src="assets/logos/logo3.png"></div>
+    <div class="slide"><img src="assets/logos/logo4.png"></div>
+    <div class="slide"><img src="assets/logos/logo5.png"></div>
+    <div class="slide"><img src="assets/logos/logo6.png"></div>
+</div>
 <div class="footer">
     <div class="background-logo">
         <img class="background-logo" src="assets/png/вап.png">
@@ -555,43 +580,50 @@
 
 </div>
 </div>
-<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script>
-    const TEXTS = [
-        '', '', ''
-    ];
-    let currentCount = 0;
-    let selectMonitor = 1;
-
-    function hoverOnItem(itemNum) {
-        document.getElementById('image-container').className = '';
-        document.getElementById('image-container').classList.add(`image-${itemNum}`);
-    }
-
-    function changeMonitor(num) {
-        selectMonitor += num;
-        if (selectMonitor > 3) {
-            selectMonitor = 1;
-        }
-        if (selectMonitor < 1) {
-            selectMonitor = 3
-        }
-        console.log(selectMonitor, num);
-        document.getElementById('monitor').setAttribute('src', `assets/monitors/${selectMonitor}.png`);
-        document.getElementById('monitor-logo').setAttribute('src', `assets/logos/logo${selectMonitor}-monitor.png`);
-
-    }
-
-    function selectTab(openId, closeId) {
-        $('.calculator-container').addClass('rev-slide');
-        document.getElementById(`calculator-${closeId}`).style.display = 'none';
-        document.getElementById(`calculator-${openId}`).style.display = 'flex';
-        setTimeout(() => {
-
-            $('.calculator-container').removeClass('rev-slide');
-        }, 1500);
-    }
+<script type="text/javascript" src="slick/slick/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.your-class').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            adaptiveHeight: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+        $('.calc-class').slick({
+            dots: true,
+            infinite: false,
+            adaptiveHeight: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            prevArrow: '<img class="slick-arrow-right" src="assets/png/arrow.svg">',
+            nextArrow: '<img class="slick-arrow-left" src="assets/png/arrow.svg">'
+        });
+        $('.keyses-class').slick({
+            dots: true,
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            //  prevArrow: '<img class="slick-arrow-right" src="assets/png/arrow.svg">',
+            // nextArrow: '<img class="slick-arrow-left" src="assets/png/arrow.svg">'
+        });
+        $('.advertising-format-class').slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            //  prevArrow: '<img class="slick-arrow-right" src="assets/png/arrow.svg">',
+            // nextArrow: '<img class="slick-arrow-left" src="assets/png/arrow.svg">'
+        });
+    });
 </script>
+
 </body>
 </html>
