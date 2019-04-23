@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 73" width="69" height="73">
+	<defs>
+		<image width="69" height="73" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAABJCAMAAABckRtgAAAAAXNSR0IB2cksfwAAAQ5QTFRFAAAArgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHrgcHWKRI5gAAAFp0Uk5TAAxwxfX/w2wJTurnagRj/dtUATb8yj/ItS0v/qAecveLEZTwdeNhAtRMwjetJpcZ9IMN620G3VnNQ7kwpCD6jhR75mTXUDuxKZwahRDs4FzQOGhV7XbHhoxx7pb65QAAAVxJREFUeJzN2OdOAlEQQOFFOHbFghUEO/aOvfeCvb//i0hiYgxujAvnh/MAXzZ778ydmSAoRawmniBRW1cfVBENjXxGU3NLxUhrkq9oa++oDOlM8T26uitSeiiL3r7oSH85AunMQFQl+1OB3OBQNGU4TIGR0UjHnglXYGw8LygwMWkoMDVtKDAzayik5uYFBRYWlwQFllcKggKra79n6d8UWN8wFNjcMhTS2zuCArt7+4JSytKD0CyNqMDhUUhxjqzA8YmhQPzUUODs3FBIXVwKSqk4XxUFBa6zBUGBm9u8oMDdvaGQfDAUeFSUp6Kh8KwoL4qSUxT+0bc4/0U5I+e+GHdXySMjp436YtS63Gv1dVd5A4z3yHgbjXfa6BmM/sXopZS+zugxjX7X6L2NOcCYSZT5yJjVjLnRmGEjzdPObB++Z3iLuGdwdh7O/kXaBTl7KWlHFgSx9yr3dR+9z2G4qUEV/QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="наши кейсы">
+		<use id="Vector Smart Object" href="#img1" x="0" y="0" />
+	</g>
+</svg>

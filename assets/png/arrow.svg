@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 86" width="72" height="86">
+	<defs>
+		<image width="90" height="108" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA5MCAxMDgiIHdpZHRoPSI5MCIgaGVpZ2h0PSIxMDgiPgoJPGRlZnM+CgkJPGNsaXBQYXRoIGNsaXBQYXRoVW5pdHM9InVzZXJTcGFjZU9uVXNlIiBpZD0iY3AxIj4KCQkJPHBhdGggZD0iTTAgMEw5MCAwTDkwIDEwOEwwIDEwOFoiIC8+CgkJPC9jbGlwUGF0aD4KCTwvZGVmcz4KCTxzdHlsZT4KCQl0c3BhbiB7IHdoaXRlLXNwYWNlOnByZSB9CgkJLnNocDAgeyBmaWxsOiAjZmZmZmZmIH0gCgk8L3N0eWxlPgoJPGcgaWQ9IlBhZ2UgMSIgY2xpcC1wYXRoPSJ1cmwoI2NwMSkiPgoJCTxwYXRoIGlkPSJQYXRoIDEiIGNsYXNzPSJzaHAwIiBkPSJNOTAuMjgsNTMuN2MwLDQuNTIgLTIuMzIsOC44IC02LjA2LDExLjE2bC02NC42Niw0MS4xN2MtMi4wMywxLjI5IC00LjM2LDEuOTcgLTYuNzYsMS45N2MtMi4zOSwwIC00LjczLC0wLjY4IC02Ljc1LC0xLjk3Yy0zLjczLC0yLjM4IC02LjA1LC02LjY2IC02LjA1LC0xMS4xN3YtODIuMzRjMCwtNC41MSAyLjMyLC04Ljc5IDYuMDYsLTExLjE2YzMuOCwtMi40MyA5LjY5LC0yLjQzIDEzLjUxLDAuMDNsNjQuNjYsNDEuMTVjMy43MywyLjM5IDYuMDUsNi42NyA2LjA1LDExLjE3eiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="калькулятор стоимости">
+		<g id="соц-дем характеристики">
+			<use id="Vector Smart Object" href="#img1" transform="matrix(0.798,0,0,0.793,0,0)"/>
+		</g>
+	</g>
+</svg>
