@@ -23,8 +23,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="297">
-                  <caret line="586" column="45" selection-start-line="586" selection-start-column="45" selection-end-line="586" selection-end-column="45" />
+                <state relative-caret-position="382">
+                  <caret line="604" column="37" selection-start-line="604" selection-start-column="20" selection-end-line="604" selection-end-column="37" />
                   <folding>
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -102,8 +102,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="490">
-                  <caret line="1130" lean-forward="true" selection-start-line="1130" selection-end-line="1130" />
+                <state relative-caret-position="220">
+                  <caret line="899" column="2" lean-forward="true" selection-start-line="899" selection-start-column="2" selection-end-line="899" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -244,7 +244,7 @@
       <workItem from="1555423548756" duration="7258000" />
       <workItem from="1555509316722" duration="22058000" />
       <workItem from="1555671393720" duration="32250000" />
-      <workItem from="1556049621995" duration="9039000" />
+      <workItem from="1556049621995" duration="11465000" />
     </task>
     <task id="LOCAL-00001" summary="update to new design">
       <created>1555599014043</created>
@@ -274,11 +274,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556053297185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new footer">
+      <created>1556110088650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1556110088650</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add new welcome-page">
+      <created>1556112380921</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556112380921</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118318000" />
+    <option name="totallyTimeSpent" value="120744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -314,6 +328,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update to new design" />
     <MESSAGE value="add sliders" />
+    <MESSAGE value="add new footer" />
     <MESSAGE value="add new welcome-page" />
     <option name="LAST_COMMIT_MESSAGE" value="add new welcome-page" />
   </component>
@@ -457,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="586" column="45" selection-start-line="586" selection-start-column="45" selection-end-line="586" selection-end-column="45" />
+        <state relative-caret-position="382">
+          <caret line="604" column="37" selection-start-line="604" selection-start-column="20" selection-end-line="604" selection-end-column="37" />
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
@@ -476,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="1130" lean-forward="true" selection-start-line="1130" selection-end-line="1130" />
+        <state relative-caret-position="220">
+          <caret line="899" column="2" lean-forward="true" selection-start-line="899" selection-start-column="2" selection-end-line="899" selection-end-column="2" />
         </state>
       </provider>
     </entry>
