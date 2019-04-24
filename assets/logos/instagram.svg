@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82 70" width="82" height="70">
+	<defs>
+		<image width="286" height="240" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODYgMjQwIiB3aWR0aD0iMjg2IiBoZWlnaHQ9IjI0MCI+Cgk8ZGVmcz4KCQk8Y2xpcFBhdGggY2xpcFBhdGhVbml0cz0idXNlclNwYWNlT25Vc2UiIGlkPSJjcDEiPgoJCQk8cGF0aCBkPSJNMCAwTDI4NiAwTDI4NiAyNDBMMCAyNDBaIiAvPgoJCTwvY2xpcFBhdGg+Cgk8L2RlZnM+Cgk8c3R5bGU+CgkJdHNwYW4geyB3aGl0ZS1zcGFjZTpwcmUgfQoJCS5zaHAwIHsgZmlsbDogI2ZmZmZmZiB9IAoJPC9zdHlsZT4KCTxnIGlkPSJQYWdlIDEiIGNsaXAtcGF0aD0idXJsKCNjcDEpIj4KCQk8cGF0aCBpZD0iUGF0aCAxIiBjbGFzcz0ic2hwMCIgZD0iTTAsMjAuMDN2MTk5Ljg1YzAsMTEuMDcgOS4wNSwyMC4xMiAyMC4xMiwyMC4xMmg5My4wNGwwLjc3LC04OC4zOGwtMzMuNzcsLTAuNGwwLC0zOC4yMWwzMy4xNiwwLjEzbC0wLjUsLTIwLjQ5Yy0wLjIzLC05LjY4IDEuNTEsLTE3Ljg4IDIuNCwtMjIuMzZjMC41OSwtMi45OSA0Ljc3LC0xOC4yNyAxOS44NywtMjcuMzZjOC43NSwtNS4yNyAxNS41OCwtNy4yOCAzMi41NSwtNi44YzEwLjkxLDAuMyAxMi4xMywtMC4xMiAyNS4zMiwxLjQ0djMzLjQ1aC05LjVjLTAuMjMsMCAtMC40NywwIC0wLjczLDBjLTExLjczLDAgLTIxLjU4LC0wLjI5IC0yNS44NCw1LjA5Yy0zLjUxLDQuNDMgLTMuNTIsMTAuMzkgLTMuNTIsMTguNjl2MTguMzJoMzguNDFsMTQuODIsMzcuNDRoLTUzLjM0bDAsODkuNDVoMTEyLjc3YzExLjA3LDAgMjAuMTIsLTkuMDUgMjAuMTIsLTIwLjEydi0xOTkuODVjMCwtMTEuMDcgLTkuMDUsLTIwLjEyIC0yMC4xMiwtMjAuMTJoLTI0NS45Yy0xMS4wNywwIC0yMC4xMiw5LjA1IC0yMC4xMiwyMC4xMnoiIC8+Cgk8L2c+Cjwvc3ZnPg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футтер">
+		<use id="Векторный смарт-объект" href="#img1" transform="matrix(0.287,0,0,0.292,0,0)"/>
+	</g>
+</svg>

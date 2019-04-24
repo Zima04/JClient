@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 78" width="78" height="78">
+	<defs>
+		<image width="24" height="24" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMjQgMEwyNCAyNEwwIDI0WiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICNmZmZmZmYgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0yNCw1djE0YzAsMi43NiAtMi4yNCw1IC01LDVoLTE0Yy0yLjc2LDAgLTUsLTIuMjQgLTUsLTV2LTE0YzAsLTIuNzYgMi4yNCwtNSA1LC01aDE0YzIuNzYsMCA1LDIuMjQgNSw1ek04LjI1LDQuOTdjMCwtMC45NyAtMC43OCwtMS43NiAtMS43NSwtMS43NmMtMC45NywwIC0xLjc1LDAuNzkgLTEuNzUsMS43NmMwLDAuOTcgMC43OCwxLjc2IDEuNzUsMS43NmMwLjk3LDAgMS43NSwtMC43OSAxLjc1LC0xLjc2ek04LDhoLTN2MTFoM3pNMjAsMTIuMjRjMCwtNS4yNSAtNS42LC01LjA2IC03LC0yLjQ4di0xLjc3aC0zdjExaDN2LTUuNmMwLC0zLjExIDQsLTMuMzcgNCwwdjUuNmgzeiIgLz4KCTwvZz4KPC9zdmc+"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="футтер">
+		<use id="Векторный смарт-объект" href="#img1" transform="matrix(3.25,0,0,3.25,0,0)"/>
+	</g>
+</svg>
