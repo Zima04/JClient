@@ -854,12 +854,23 @@ h1, h2, h3, h4, h5 {
     align-items: center;
     width: 100vw;
     /*background-color: #8a0303;*/
-    padding: 50px 0;
+    padding-bottom: 50px;
     /*min-height:700px;*/
-    background-color: black;
+    background-image: url('assets/png/fon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Gothic', serif;
     margin-top: 20px;
+}
 
+.footer:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.59;
+    width: 100%;
 }
 
 /*.footer:after{*/
@@ -905,6 +916,7 @@ h1, h2, h3, h4, h5 {
 .row {
     display: flex;
     width: 100%;
+    padding-top: 20px;
     flex-direction: row;
     z-index: 3;
     flex-wrap: wrap-reverse;
@@ -929,7 +941,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .footer-input {
-    padding: 5px 8px;
+    padding: 5px 20px;
     border: none;
     min-width: 500px;
     line-height: 40px;
