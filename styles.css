@@ -269,22 +269,32 @@ h1, h2, h3, h4, h5 {
 .slide-form-0 {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover!important;
+    background-size: cover !important;
     background: url("assets/png/background-form1.png");
 }
 
 .slide-form-1 {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover!important;
+    background-size: cover !important;
     background: url("assets/png/background-form2.jpg");
 }
 
 .slide-form-2 {
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover!important;
+    background-size: cover !important;
     background: url("assets/png/background-form3.jpg");
+}
+
+.slide-form-0:before, .slide-form-1:before, .slide-form-2:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.59;
+    width: 100%;
 }
 
 
@@ -505,7 +515,7 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 
-.large-length-input{
+.large-length-input {
     width: 100%;
 }
 
