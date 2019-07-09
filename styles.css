@@ -287,15 +287,15 @@ h1, h2, h3, h4, h5 {
     background: url("assets/png/background-form3.jpg");
 }
 
-.slide-form-0:before, .slide-form-1:before, .slide-form-2:before {
-    position: absolute;
-    left: 0;
-    content: "";
-    height: 100%;
-    background-color: #000000;
-    opacity: 0.59;
-    width: 100%;
-}
+/*.slide-form-0:before, .slide-form-1:before, .slide-form-2:before {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    content: "";*/
+/*    height: 100%;*/
+/*    background-color: #000000;*/
+/*    opacity: 0.59;*/
+/*    width: 100%;*/
+/*}*/
 
 
 .calc-form {
@@ -717,7 +717,7 @@ h1, h2, h3, h4, h5 {
     padding: 30px;
     font-size: 42px;
     display: flex;
-    color: #ff0000;
+    color: #ffffff!important;
     justify-content: center;
 }
 
