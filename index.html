@@ -9,8 +9,6 @@
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" type="text/css" href="slick/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css"/>
-    <link rel="stylesheet" href="range/dist/css/gRanger.min.css">
-    <link rel="stylesheet" href="range/dist/css/main.min.css">
     <link rel="stylesheet" id="theme" href="select/public/selectric.css">
 </head>
 <body>
@@ -59,14 +57,16 @@
             </div>
         </div>
     </div>
-    <div class="text" style="font-size: 16px;">* Стоимость просмотра от 0,01 BYN для резидентов РБ и от 0,01 $ для резидентов РФ</div>
+    <div class="text" style="font-size: 16px;">* Стоимость просмотра от 0,01 BYN для резидентов РБ и от 0,01 $ для
+        резидентов РФ
+    </div>
 </div>
 <form action="https://formspree.io/zima04zima@gmail.com" method="POST">
     <div class="form-container slider slide-form-0">
-        <div style="display: flex" >
+        <div style="display: flex">
             <div class="calc-form">
                 <div class="calc-header">
-                    социально димографические характеристики :
+                    социально демографические характеристики :
                 </div>
                 <div class="calc-body">
                     <!--                    <div class="row-calc">-->
@@ -173,7 +173,8 @@
                         </label>
                         <div class="input-calc-block">
                             <div class="item">
-                                <input class="large-length-input" type="text" name="fromAge" id="min" placeholder="Автомобили">
+                                <input class="large-length-input" type="text" name="fromAge" id="min"
+                                       placeholder="Автомобили">
                             </div>
                         </div>
                     </div>
@@ -183,7 +184,8 @@
                         </label>
                         <div class="input-calc-block">
                             <div class="item">
-                                <input class="large-length-input" type="text" name="fromAge" id="min" placeholder="Скидки">
+                                <input class="large-length-input" type="text" name="fromAge" id="min"
+                                       placeholder="Скидки">
                             </div>
                         </div>
                     </div>
@@ -227,7 +229,8 @@
                         </label>
                         <div class="input-calc-block">
                             <div class="item">
-                                <input class="large-length-input" type="text" name="FIO" placeholder="Иванов Иван Иванович">
+                                <input class="large-length-input" type="text" name="FIO"
+                                       placeholder="Иванов Иван Иванович">
                             </div>
                         </div>
                     </div>
@@ -421,7 +424,7 @@
 <h1 style="margin: 0; margin-top: 40px; ">наши кейсы</h1>
 <div class="keyses-container keyses-class slider content-container">
     <div class="keyses-description-block">
-        <div style="display: flex;flex-direction: row;">
+        <div class="flex-block-row">
             <div class="keyses-images">
                 <img style="height: 45px" src="assets/logos/logo1-monitor.png">
                 <img class="monitor" src="assets/monitors/11.png">
@@ -449,7 +452,7 @@
         </div>
     </div>
     <div class="keyses-description-block">
-        <div style="display: flex;flex-direction: row;align-items: center">
+        <div class="flex-block-row">
             <div class="keyses-images">
                 <img style="height: 70px" src="assets/logos/logo2-monitor.png">
                 <img class="monitor" src="assets/monitors/11.png">
@@ -477,7 +480,7 @@
         </div>
     </div>
     <div class="keyses-description-block">
-        <div style="display: flex;flex-direction: row;align-items: center">
+        <div class="flex-block-row">
             <div class="keyses-images">
                 <img style="height: 70px" src="assets/logos/logo3-monitor.png">
                 <img class="monitor" src="assets/monitors/11.png">
@@ -550,20 +553,20 @@
                 <input id="floatField" type="text" class="footer-input" placeholder="Введите свой e-mail адрес">
             </div>
         </div>
-<!--        <div class="social-icons-container">-->
-<!--            <div class="icon-container">-->
-<!--                <img src="assets/logos/facebook.svg" class="social-icon">-->
-<!--            </div>-->
-<!--            <div class="icon-container">-->
-<!--                <img src="assets/logos/instagram.svg" class="social-icon">-->
-<!--            </div>-->
-<!--            <div class="icon-container">-->
-<!--                <img src="assets/logos/vk.svg" class="social-icon">-->
-<!--            </div>-->
-<!--            <div class="icon-container">-->
-<!--                <img src="assets/logos/linked.svg" class="social-icon">-->
-<!--            </div>-->
-<!--        </div>-->
+        <!--        <div class="social-icons-container">-->
+        <!--            <div class="icon-container">-->
+        <!--                <img src="assets/logos/facebook.svg" class="social-icon">-->
+        <!--            </div>-->
+        <!--            <div class="icon-container">-->
+        <!--                <img src="assets/logos/instagram.svg" class="social-icon">-->
+        <!--            </div>-->
+        <!--            <div class="icon-container">-->
+        <!--                <img src="assets/logos/vk.svg" class="social-icon">-->
+        <!--            </div>-->
+        <!--            <div class="icon-container">-->
+        <!--                <img src="assets/logos/linked.svg" class="social-icon">-->
+        <!--            </div>-->
+        <!--        </div>-->
         <div class="right-part-footer">
             <h3 class="footer-header">
                 наше местоположение
@@ -584,7 +587,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 <script type="text/javascript">
-    $('.form-container').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    $('.form-container').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
         console.log(nextSlide);
         $('.form-container').removeClass(`slide-form-${currentSlide}`);
         $('.form-container').addClass(`slide-form-${nextSlide}`);
@@ -599,6 +602,20 @@
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 2000,
+            responsive: [{
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    infinite: true
+                }
+            }, {
+
+                breakpoint: 700,
+                settings: {
+                    slidesToShow: 1,
+                    infinite: true
+                }
+            }]
         });
         $('.form-container').slick({
             dots: true,
@@ -607,24 +624,19 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             swipe: false
-            // prevArrow: '<img class="slick-arrow-right" src="assets/png/arrow.svg">',
-            // nextArrow: '<img class="slick-arrow-left" src="assets/png/arrow.svg">'
         });
         $('.keyses-class').slick({
+            adaptiveHeight: false,
             dots: true,
             infinite: false,
             slidesToShow: 1,
             slidesToScroll: 1,
-            //  prevArrow: '<img class="slick-arrow-right" src="assets/png/arrow.svg">',
-            // nextArrow: '<img class="slick-arrow-left" src="assets/png/arrow.svg">'
         });
         $('.advertising-format-class').slick({
             dots: true,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            //  prevArrow: '<img class="slick-arrow-right" src="assets/png/arrow.svg">',
-            // nextArrow: '<img class="slick-arrow-left" src="assets/png/arrow.svg">'
         });
     });
     $('.arrow-down').click(function () {
@@ -641,15 +653,10 @@
 <script src="select/public/lib/prism.js"></script>
 <script src="select/public/lib/jquery.minicolors.min.js"></script>
 <script src="select/public/jquery.selectric.js"></script>
-<script type="text/javascript" src="range/dist/js/gRanger.min.js" defer></script>
-<script type="text/javascript" src="range/dist/js/main.min.js" defer></script>
 <script>
     $(function () {
         $('select').selectric();
     });
-</script>
-<script type="text/javascript">
-    new gRanger('#range2', '#min', '#max');
 </script>
 </body>
 </html>
