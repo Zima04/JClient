@@ -22,7 +22,7 @@ body {
 h1 {
     font-size: 30px;
     margin: 40px 0;
-    color: #ff0000;
+    color: #ce3e3e;
 }
 
 h1, h2, h3, h4, h5 {
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5 {
     right: 124px;
     content: "";
     height: 106px;
-    background-color: #ff0000;
+    background-color: #ce3e3e;
     width: 226px;
     border-radius: 10px;
 }
@@ -121,6 +121,7 @@ h1, h2, h3, h4, h5 {
 /*CIRCLES-CONTAINER*/
 
 .calculator-text-container {
+    width: 1280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,9 +150,10 @@ h1, h2, h3, h4, h5 {
 }
 
 .text {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 60px;
-    color: #9b9b9b;
+    /*color: #9b9b9b;*/
+    /*color: #ffffff;*/
     text-transform: uppercase;
     text-align: center;
 }
@@ -160,7 +162,7 @@ h1, h2, h3, h4, h5 {
     padding: 0 70px 70px 70px;
     display: flex;
     flex-direction: column;
-    min-width: 90%;
+    min-width: 100%;
     border-radius: 10px;
 }
 
@@ -170,45 +172,98 @@ h1, h2, h3, h4, h5 {
 }
 
 .price-item {
-    padding: 60px 30px;
+    position: relative;
+    padding: 60px 30px 30px;
     margin: 15px;
     flex: 1;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    /*border-right: 2px solid #9b9b9b;*/
+    /* border-right: 2px solid #9b9b9b; */
     box-shadow: 0px 2px 24px rgba(54, 37, 42, 0.09);
+    /* background-color: #c6c6c6; */
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", serif;
+}
 
+.price-description-container {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-bottom: 2px grey solid;
+}
+
+.price-description-container img {
+    width: 40px;
+    height: 40px;
 }
 
 .price-description {
     line-height: 35px;
+    padding: 15px 20px;
+    width: 100%;
+    display: flex;
 }
 
-.price-item:last-of-type {
+.price-description-container:last-of-type {
     border: none;
 }
 
+.red-back {
+    border-radius: 20px 20px 0 0;
+    height: 160px;
+    position: absolute;
+    /* z-index: 999; */
+    background: grey;
+    width: 100%;
+    top: 0;
+    font-size: 30px;
+    background: #ce3e3e;
+    color: white;
+}
+
 .price-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    font-size: 100px;
-    letter-spacing: 5px;
-    line-height: 60px;
-    color: #ff0000;
-    font-weight: 400;
-    padding-bottom: 50px;
+    font-size: 40px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #ffffff;
+    background-color: #ce3e3e;
+    font-weight: 300;
+    /* padding-bottom: 50px; */
     text-align: center;
+    border: 20px solid #ffffff;
+    border-radius: 100%;
+    /* background: white; */
+    height: 150px;
+    width: 150px;
+    transition: 0.3s linear;
+    /* box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.39); */
 }
 
 .symbol-dollar {
-    position: absolute;
-    font-size: 60px;
+    /*position: absolute;*/
+    /*font-size: 60px;*/
+    /*letter-spacing: 3px;*/
+    /*line-height: 60px;*/
+    /*left: 20px;*/
+    /*top: -12px;*/
+
+    position: relative;
+    font-size: 45px;
     letter-spacing: 3px;
-    line-height: 60px;
-    left: 2%;
-    top: -12px;
+    line-height: 45px;
+    /* left: 20px; */
+    /*top: -12px;*/
 }
 
+.price-item:hover > .price-count {
+    background-color: #b71717
+}
 
 /*CALCULATOR*/
 .test {
@@ -306,13 +361,11 @@ h1, h2, h3, h4, h5 {
     position: relative;
     flex: 1;
     /*min-height: 600px;*/
-    padding-bottom: 60px;
     z-index: 1;
     max-width: 600px;
     background-color: #ffffff;
     margin: 40px;
-    border-radius: 10px;
-    border: 1px solid rgba(34, 36, 38, .15);
+    border-radius: 20px;
     box-shadow: 0px 2px 24px rgba(54, 37, 42, 0.09);
     /*background: url("assets/png/123.png");*/
 }
@@ -340,18 +393,29 @@ h1, h2, h3, h4, h5 {
 /*    top: 230px;*/
 /*    opacity: 0.75;*/
 /*    !*border: 90px solid transparent;*!*/
-/*    !*border-left: 100px solid #ff0000;*!*/
+/*    !*border-left: 100px solid #ce3e3e;*!*/
 /*}*/
 
 .calc-header {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 15px;
     font-size: 24px;
     font-weight: bold;
-    color: #ff0000;
+    /*color: #ce3e3e;*/
+
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    margin: 0;
+    height: 46px;
+    background: #ce3e3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .calc-body {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -550,7 +614,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .slide-text {
-    padding: 10px;
+    min-height: 300px;
+    /*padding: 0 30px 30px;*/
     margin-left: 10px;
     margin-bottom: 20px;
     flex: 1;
@@ -559,11 +624,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .slide-text h3 {
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    margin: 0;
     height: 46px;
-    color: #ff0000;
+    background: #ce3e3e;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.slide-describe {
+    padding: 30px;
+    text-align: center;
 }
 
 
@@ -603,7 +677,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .pink-table td {
-    border: 2px #ff0000 solid;
+    border: 2px #ce3e3e solid;
 }
 
 /*.pink-table tr:first-of-type {*/
@@ -701,7 +775,7 @@ h1, h2, h3, h4, h5 {
     position: relative;
     top: 15px;
     font-size: 18px;
-    color: #ff0000;
+    color: #af0808;
     text-transform: uppercase;
 }
 
@@ -742,7 +816,6 @@ h1, h2, h3, h4, h5 {
 .advertising-button {
     position: relative;
     top: -30px;
-
     font-weight: bold;
     background-color: #af0808;
     color: #ffffff;
@@ -803,10 +876,10 @@ h1, h2, h3, h4, h5 {
     border-radius: 10px;
     margin: 25px;
     box-shadow: 0px 2px 24px rgba(54, 37, 42, 0.09);
-    padding: 20px 10px;
+    padding: 30px;
 }
 
-.test1{
+.test1 {
     background: url("assets/png/case-1.jpg");
     background-size: contain;
 }
@@ -824,7 +897,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /*SLIDER-LOGOS*/
-.slide-logo{
+.slide-logo {
     width: 80%;
 }
 
@@ -875,7 +948,7 @@ h1, h2, h3, h4, h5 {
 
 .row {
     display: flex;
-    width: 100%;
+    width: 1280px;
     padding-top: 20px;
     flex-direction: row;
     z-index: 3;
@@ -936,7 +1009,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .icon-container:hover, .send-label:hover, .advertising-button:hover {
-    background-color: #ff0000;
+    /*background-color: #ce3e3e;*/
     cursor: pointer;
 }
 
@@ -974,8 +1047,8 @@ h1, h2, h3, h4, h5 {
 
 .send-button {
     font-weight: bold;
-    background-color: #ff0000;
-    color: #ffffff;
+    background-color: #ce3e3e !important;
+    color: #ffffff !important;
     text-transform: uppercase;
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
     box-sizing: border-box;
@@ -1000,6 +1073,15 @@ h1, h2, h3, h4, h5 {
 }
 
 /*CARUSEL STYLES*/
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: url("assets/png/background-form.jpg");
+}
+
 
 .form-container .slick-next {
     top: 86%;
@@ -1059,12 +1141,12 @@ h1, h2, h3, h4, h5 {
     font-size: 45px !important;
     opacity: 1 !important;
     /*color: #8a0303 !important;*/
-    color: #ff0000 !important;
+    color: #ce3e3e !important;
     transition: 0.3s linear;
 }
 
 .slick-prev:hover:before, .slick-next:hover:before {
-    color: #ff0000 !important;
+    color: #ce3e3e !important;
 }
 
 .slick-disabled {
@@ -1086,6 +1168,7 @@ h1, h2, h3, h4, h5 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 }
 
 .slick-dots li button:before {
@@ -1094,7 +1177,7 @@ h1, h2, h3, h4, h5 {
 
 .slick-dots li.slick-active button:before {
     /*color: #8a0303 !important;*/
-    color: #ff0000 !important;
+    color: #ce3e3e !important;
     opacity: 1 !important;
 }
 
@@ -1166,11 +1249,11 @@ h1, h2, h3, h4, h5 {
         align-items: center;
     }
 
-    .keyses-description{
+    .keyses-description {
         width: auto;
     }
 
-    .keyses-images .monitor{
+    .keyses-images .monitor {
         width: 500px;
     }
 
@@ -1178,15 +1261,15 @@ h1, h2, h3, h4, h5 {
         display: none
     }
 
-    .slide-item img{
+    .slide-item img {
         width: 100%;
     }
 
-    .image-text{
+    .image-text {
         flex-direction: column;
     }
 
-    .slide-text{
+    .slide-text {
         margin: 20px;
     }
 

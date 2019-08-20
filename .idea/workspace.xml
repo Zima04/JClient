@@ -1,111 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/styles.css" line="1134" />
+    <bookmark url="file://$PROJECT_DIR$/styles.css" line="1217" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad2e57e-6559-42e6-bc1f-e29ef9b173aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/monitors/22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/monitors/33.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/monitors/мокап2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/png/22.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/png/background-form1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/png/background-form2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/png/background-form3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/png/background-form3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/png/pocket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/CNAME" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/customoptions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/img/browser-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/img/features-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/img/icoDownload.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/img/jquery.minicolors.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/jquery.selectric.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/jquery.selectric.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/lib/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/lib/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/lib/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/lib/jquery.minicolors.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/lib/prism.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/lib/prism.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/plugins/jquery.selectric.addNew.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/plugins/jquery.selectric.addNew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/plugins/jquery.selectric.addNew.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/plugins/jquery.selectric.placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/plugins/jquery.selectric.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/share.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/flat-dark-blue/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/flat-light-blue/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/flat-marsala/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/flat-radiant-orchid/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/flat-red/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/modern-v2/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/modern/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/plus/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/square/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/public/themes/template/selectric.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/selectric.jquery.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/jquery.selectric.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/plugins/jquery.selectric.addNew.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/plugins/jquery.selectric.addNew.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/plugins/jquery.selectric.placeholder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/selectric.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/themes/flat-dark-blue/selectric.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/themes/flat-light-blue/selectric.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/themes/flat-marsala/selectric.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/themes/flat-radiant-orchid/selectric.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/src/themes/flat-red/selectric.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/basic.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/events.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/fixtures/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/fixtures/hidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/fixtures/multiple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/fixtures/optgroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/fixtures/options.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/keyboard.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/lib/jasmine-jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/lib/keyvent.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/mobile.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/multiple.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/options.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/select/test/visibility.spec.js" afterDir="false" />
+    <list default="true" id="cad2e57e-6559-42e6-bc1f-e29ef9b173aa" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/clocks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/crop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/duck.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fingers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/monitors/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/monitors/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/Untitled-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/circles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/df.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/ds.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/кнопка.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/ножніцы.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/пв.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/руки.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/рупор.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/png/секундомер.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/ножницы.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/ножницы.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/рука.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/рука.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/рупор.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/рупор.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/телефон.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/телефон.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/icons/уточка.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/уточка.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
@@ -119,27 +24,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49321267">
+    <splitter split-orientation="horizontal" split-proportion="0.55330396">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+                <state relative-caret-position="294">
+                  <caret line="169" column="14" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -151,7 +48,7 @@
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <marker date="1563907575415" expanded="true" signature="16451:16949" ph="..." />
+                    <marker date="1566332000335" expanded="true" signature="14233:14731" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -190,7 +87,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/slick/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5899">
+                <state relative-caret-position="624">
                   <caret line="347" column="6" selection-start-line="347" selection-start-column="6" selection-end-line="350" selection-end-column="25" />
                 </state>
               </provider>
@@ -203,8 +100,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="260">
-                  <caret line="810" column="28" selection-start-line="810" selection-start-column="28" selection-end-line="810" selection-end-column="28" />
+                <state relative-caret-position="345">
+                  <caret line="367" column="24" selection-start-line="367" selection-start-column="24" selection-end-line="367" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -215,11 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer-button</find>
-      <find>item</find>
-      <find>slide-image</find>
-      <find>input-calc-block</find>
-      <find>.row-calc .radio-calc</find>
       <find>lick-sli</find>
       <find>slide-te</find>
       <find>.selectric .button</find>
@@ -245,6 +137,11 @@
       <find>td</find>
       <find>img</find>
       <find>Заполните форму и узнайте цену:</find>
+      <find>calcula</find>
+      <find>price</find>
+      <find>.text</find>
+      <find>send-button-container</find>
+      <find>send-button</find>
     </findStrings>
     <replaceStrings>
       <replace>вовлечений</replace>
@@ -268,16 +165,16 @@
         <option value="$PROJECT_DIR$/range/dist/css/main.css" />
         <option value="$PROJECT_DIR$/range/dist/css/main.min.css" />
         <option value="$PROJECT_DIR$/select/public/selectric.css" />
-        <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/styles.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="2423" />
-    <option name="height" value="1310" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="2420" />
+    <option name="height" value="1320" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -286,14 +183,24 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ivan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ivan" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reporting-web-angular7" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/untitled" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -352,6 +259,7 @@
       <workItem from="1562314863361" duration="17317000" />
       <workItem from="1562454352664" duration="2584000" />
       <workItem from="1562527900873" duration="27140000" />
+      <workItem from="1566242382280" duration="15144000" />
     </task>
     <task id="LOCAL-00001" summary="update to new design">
       <created>1555599014043</created>
@@ -430,17 +338,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562668752071</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix">
+      <created>1563907633334</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563907633334</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201764000" />
+    <option name="totallyTimeSpent" value="216971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24983476" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22934566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -458,6 +373,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22934566" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,7 +409,8 @@
     <MESSAGE value="clean code" />
     <MESSAGE value="add form-block" />
     <MESSAGE value="small fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="small fix" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/slick/slick/slick-theme.less">
@@ -566,23 +501,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/png/background-form2.jpg" />
-    <entry file="file://$PROJECT_DIR$/slick/slick/slick.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick/slick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/select/src/selectric.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2040" />
@@ -618,20 +536,6 @@
     <entry file="file://$PROJECT_DIR$/assets/png/background-form3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick/slick-theme.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slick/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5899">
-          <caret line="347" column="6" selection-start-line="347" selection-start-column="6" selection-end-line="350" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/range/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/select/public/selectric.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,30 +545,46 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/index.html" />
-    <entry file="file://$PROJECT_DIR$/styles.css">
+    <entry file="file://$PROJECT_DIR$/slick/slick/slick.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="810" column="28" selection-start-line="810" selection-start-column="28" selection-end-line="810" selection-end-column="28" />
+        <state relative-caret-position="884">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick/slick-theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/slick/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slick/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="347" column="6" selection-start-line="347" selection-start-column="6" selection-end-line="350" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="37" column="36" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
+        <state relative-caret-position="294">
+          <caret line="169" column="14" selection-start-line="169" selection-start-column="14" selection-end-line="169" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -676,8 +596,15 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1563907575415" expanded="true" signature="16451:16949" ph="..." />
+            <marker date="1566332000335" expanded="true" signature="14233:14731" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="367" column="24" selection-start-line="367" selection-start-column="24" selection-end-line="367" selection-end-column="24" />
         </state>
       </provider>
     </entry>
