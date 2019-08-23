@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5 {
 /*CIRCLES-CONTAINER*/
 
 .calculator-text-container {
-    width: 1280px;
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -898,7 +898,7 @@ h1, h2, h3, h4, h5 {
 
 /*SLIDER-LOGOS*/
 .slide-logo {
-    width: 80%;
+    width: 70%;
 }
 
 /*FOOTER*/
@@ -938,7 +938,7 @@ h1, h2, h3, h4, h5 {
 .footer-header {
     color: #ffffff;
     /*flex: 1;*/
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 
 .empty {
@@ -948,11 +948,10 @@ h1, h2, h3, h4, h5 {
 
 .row {
     display: flex;
-    width: 1280px;
+    max-width: 1280px;
     padding-top: 20px;
     flex-direction: row;
     z-index: 3;
-    flex-wrap: wrap-reverse;
 }
 
 .left-part-footer {
@@ -1199,11 +1198,44 @@ h1, h2, h3, h4, h5 {
 }
 
 /deep/ .slick-list {
-    height: 1000px !important;
+    min-height: 1000px !important;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+#slick-slide10,#slick-slide11{
+    min-height: 500px!important;
 }
 
 /*MEDIA REQUEST*/
 @media (max-width: 1100px) {
+    .calc-form {
+        margin: 40px 10px;
+    }
+
+    .right-part-footer div {
+        width: 300px !important;
+    }
+
+    .calc-body input {
+        width: calc(100% - 2em);
+    }
+
+    .calc-header {
+        font-size: 18px;
+    }
+
+    .text-big {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .text {
+        line-height: 20px;
+    }
+
     .pink-table {
         width: auto;
         border-spacing: 0;
@@ -1212,24 +1244,31 @@ h1, h2, h3, h4, h5 {
     .pink-table td {
         margin: 30px;
         display: block;
+        height: auto;
     }
 
     .prices-row {
         flex-direction: column;
+        align-items: center;
     }
 
     .price-item {
+        /*min-width: 350px;*/
         border-right: none;
         border-bottom: 2px solid #9b9b9b;
     }
 
+    .slide-text {
+        min-height: auto;
+    }
+
     .slick-prev {
-        left: 20px !important;
+        left: 0px !important;
         z-index: 9999;
     }
 
     .slick-next {
-        right: 40px !important;
+        right: 20px !important;
         z-index: 9999;
     }
 
@@ -1237,11 +1276,80 @@ h1, h2, h3, h4, h5 {
         padding: 0;
         margin: 15px;
     }
+
+    .input-calc-block {
+        flex-direction: column;
+    }
+
+    .input-calc-block .item {
+        padding: 10px 0;
+    }
+
+    .footer-input {
+        min-width: auto;
+    }
 }
 
 @media (max-width: 1000px) {
+
+
+
+    .slick-list {
+        /*min-height: 500px !important;*/
+        padding-bottom: 40px !important;
+    }
+
+    .welcome-header:after {
+        display: none;
+    }
+
+    .mobile-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        bottom: 20%;
+        position: relative;
+        z-index: 2;
+    }
+
+    .mobile-logo img {
+        width: 60%;
+        opacity: 0.9;
+    }
+
+    .slick-track {
+        align-items: start !important;
+    }
+
+    .slick-prev:before, .slick-next:before {
+        opacity: 1 !important;
+        font-size: 40px !important;
+        color: #af0808 !important;
+    }
+
+    .advertising-button {
+        display: block;
+        margin: 30px;
+    }
+
+    .advertising-price {
+        font-size: 30px;
+    }
+
+    .advertising-block span{
+        padding-bottom: 30px;
+    }
+
+    .label-minimal{
+        font-size: 26px;
+    }
+
+    .welcome-image span {
+        font-size: 20px;
+    }
+
     .welcome-header {
-        font-size: 80px;
+        font-size: 40px;
     }
 
     .flex-block-row {
@@ -1254,7 +1362,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .keyses-images .monitor {
-        width: 500px;
+        width:80%;
     }
 
     .right-line, .left-line {
@@ -1262,22 +1370,58 @@ h1, h2, h3, h4, h5 {
     }
 
     .slide-item img {
-        width: 100%;
+        width: 120%;
+    }
+
+    .keyses-container {
+        padding-top: 60px;
+    }
+
+    .keyses-images img {
+        width: 80%;
+        height: auto !important;
     }
 
     .image-text {
         flex-direction: column;
+        margin: 0;
     }
 
     .slide-text {
-        margin: 20px;
+        margin: 10px 0;
+        max-width: 600px;
+    }
+
+    .keyses-container .slick-prev {
+        top: 65%;
+    }
+
+    .keyses-container .slick-next {
+        top: 65%;
     }
 
     .advertising-format-class .slick-prev {
-        top: 20%;
+        top: 50%;
     }
 
     .advertising-format-class .slick-next {
-        top: 20%;
+        top: 50%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .float-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .send-label{
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
     }
 }
