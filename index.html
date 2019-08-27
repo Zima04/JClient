@@ -89,17 +89,11 @@
                     <img src="assets/logos/circle-icon-3.svg">
                     <div class="price-description text">65 000 показов</div>
                 </div>
-                <!--                <div class="send-button">-->
-                <!--                    заказать-->
-                <!--                </div>-->
             </div>
         </div>
     </div>
-    <!--    <div class="text" style="font-size: 16px;">* Стоимость просмотра от 0,01 BYN для резидентов РБ и от 0,01 $ для-->
-    <!--        резидентов РФ-->
-    <!--    </div>-->
 </div>
-<form action="https://formspree.io/zima04zima@gmail.com" method="POST" class="form">
+<form action="https://formspree.io/inf0@upclient.by" method="POST" class="form">
     <!--    <div class="form-container slider slide-form-0">-->
     <div class="calc-form">
         <div class="calc-header">
@@ -112,24 +106,24 @@
                 </label>
                 <div class="input-calc-block space-row">
                     <div class="item">
-                        <select id="basic">
-                            <option selected value="peaches">Страна</option>
-                            <option value="cherries">Беларусь</option>
-                            <option value="cherries">Россия</option>
+                        <select id="basic1" name="country">
+                            <option selected value="Страна">Страна</option>
+                            <option value="Беларусь">Беларусь</option>
+                            <option value="Россия">Россия</option>
                         </select>
                     </div>
                     <div class="item">
-                        <select id="basic">
-                            <option selected value="peaches">Регион</option>
-                            <option value="cherries">Витебская</option>
-                            <option value="cherries">Московская</option>
+                        <select id="basic2" name="region">
+                            <option selected value="Регион">Регион</option>
+                            <option value="Витебская">Витебская</option>
+                            <option value="Московская">Московская</option>
                         </select>
                     </div>
                     <div class="item">
-                        <select id="basic">
-                            <option selected value="peaches">Город</option>
-                            <option value="cherries">Минск</option>
-                            <option value="cherries">Москва</option>
+                        <select id="basic3" name="city">
+                            <option selected value="Город">Город</option>
+                            <option value="Минск">Минск</option>
+                            <option value="Москва">Москва</option>
                         </select>
                     </div>
                 </div>
@@ -496,6 +490,48 @@
         <div class="advertising-button">
             заказать
         </div>
+        <form action="https://formspree.io/inf0@upclient.by" method="POST" class="form-2">
+            <div class="calc-form">
+                <div class="calc-body" style="padding-top: 40px">
+                    <div class="row-calc">
+                        <label>
+                            Ваше ФИО
+                        </label>
+                        <div class="input-calc-block">
+                            <div class="item">
+                                <input class="large-length-input" type="text" name="FIO"
+                                       placeholder="Иванов Иван Иванович">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <label>
+                            Ваш E-mail
+                        </label>
+                        <div class="input-calc-block">
+                            <div class="item">
+                                <input class="large-length-input" type="text" name="email" placeholder="ivan@mail.com">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-calc">
+                        <label>
+                            Телефон
+                        </label>
+                        <div class="input-calc-block">
+                            <div class="item">
+                                <input class="large-length-input" type="text" name="comment"
+                                       placeholder="+375 00 000 00 00">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send-button-container">
+                        <input style="background-color: #af0808" class="send-button" type="submit"
+                               value="Отправить">
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </div>
 <h1>Наши клиенты</h1>
@@ -554,9 +590,36 @@
     </div>
 </div>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146277055-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146277055-1');
+</script>
+
+
+<!-- Yandex.Metrika counter -->
+<script async type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(55032193, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true
+    });
+</script>
+<!-- /Yandex.Metrika counter -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script type="text/javascript" src="slick/slick/slick.min.js"></script>
 <script type="text/javascript">
+
     $('.form-container').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
         console.log(nextSlide);
         $('.form-container').removeClass(`slide-form-${currentSlide}`);
@@ -621,8 +684,9 @@
         }, 800);
         return false;
     });
-    $(window).scroll(function () {
-
+    $('.advertising-button').click(function () {
+        $('.form-2').animate({"max-height": "500px"}, 1000);
+        $("html, body").animate({scrollTop: `${$(".form-2").offset().top - 100}px`}, 1000);
     });
 </script>
 <script src="select/public/lib/prism.js"></script>
