@@ -106,7 +106,7 @@
                 <div class="input-calc-block space-row">
                     <div class="item">
                         <select id="country" name="country">
-                            <option selected value="Страна">Страна</option>
+                            <option selected value="country">Страна</option>
                             <option value="belarus">Беларусь</option>
                             <option value="russia">Россия</option>
                             <option value="ukraine">Украина</option>
@@ -117,7 +117,7 @@
                         </select>
                     </div>
                     <div class="item">
-                        <select id="region" name="region">
+                        <select id="region" name="region" disabled="disabled">
                             <option selected value="region">Регион</option>
                         </select>
                     </div>
@@ -577,7 +577,6 @@
 <script type="text/javascript">
 
     $('.form-container').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        console.log(nextSlide);
         $('.form-container').removeClass(`slide-form-${currentSlide}`);
         $('.form-container').addClass(`slide-form-${nextSlide}`);
     });
@@ -815,10 +814,10 @@
     $("#country").change(function (event) {
         $("#region").removeAttr("disabled").selectric('refresh');
         $('#region').empty();
-        console.log(selectObjects[event.target.value]);
         if (event.target.value === 'lithuania' ||
             event.target.value === 'latvia' ||
-            event.target.value === 'poland') {
+            event.target.value === 'poland' ||
+            event.target.value === 'country') {
             $('#region').empty();
             $("#region").attr("disabled", "disabled").selectric('refresh');
             $('#region').append(`<option value="Регион">Регион</option>`).selectric('refresh');
