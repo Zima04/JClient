@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/styles.css" line="1263" />
+    <bookmark url="file://$PROJECT_DIR$/styles.css" line="1299" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cad2e57e-6559-42e6-bc1f-e29ef9b173aa" name="Default Changelist" comment="">
+    <list default="true" id="cad2e57e-6559-42e6-bc1f-e29ef9b173aa" name="Default Changelist" comment="final fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +19,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5119691">
+    <splitter split-orientation="horizontal" split-proportion="0.4067164">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
                   <folding>
+                    <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -40,7 +44,6 @@
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#h1#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#span#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#span#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
@@ -48,19 +51,21 @@
                     <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#29863#30119#0" />
-                    <element signature="e#27708#31365#0" />
-                    <element signature="e#31094#31759#0" />
-                    <element signature="e#31717#31974#0" />
-                    <marker date="1566982154717" expanded="true" signature="11313:11811" ph="..." />
+                    <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#script#10;n#body#0;n#html#0;n#!!top" />
+                    <marker date="1579679003143" expanded="true" signature="12733:13231" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jquery.cyclotron.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="19" column="21" selection-end-line="177" />
                 </state>
               </provider>
             </entry>
@@ -111,8 +116,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="968" column="20" lean-forward="true" selection-start-line="968" selection-start-column="20" selection-end-line="968" selection-end-column="20" />
+                <state relative-caret-position="229">
+                  <caret line="1465" column="28" lean-forward="true" selection-start-line="1464" selection-start-column="39" selection-end-line="1465" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -123,17 +128,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>slick-current</find>
-      <find>prices-container</find>
-      <find>calc-header</find>
-      <find>td</find>
-      <find>img</find>
-      <find>Заполните форму и узнайте цену:</find>
-      <find>calcula</find>
-      <find>price</find>
       <find>.text</find>
       <find>send-button-container</find>
-      <find>send-button</find>
       <find>.calculator-text-container</find>
       <find>.slide-text</find>
       <find>.slick-track</find>
@@ -148,11 +144,20 @@
       <find>.keyses-images .monitor</find>
       <find>row</find>
       <find>.row</find>
-      <find>form</find>
       <find>adver</find>
       <find>region</find>
       <find>select</find>
       <find>Татарстан</find>
+      <find>consol</find>
+      <find>send-button</find>
+      <find>.left-part-footer input</find>
+      <find>float-container</find>
+      <find>send-bu</find>
+      <find>.float-container</find>
+      <find>form</find>
+      <find>slider</find>
+      <find>your-class</find>
+      <find>cycle</find>
     </findStrings>
     <replaceStrings>
       <replace>вовлечений</replace>
@@ -184,9 +189,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="1549" />
-    <option name="height" value="845" />
+    <option name="y" value="1" />
+    <option name="width" value="1934" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -204,7 +209,7 @@
             <path>
               <item name="Ivan" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ivan" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery.cyclotron.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -224,10 +229,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Uladzislau_Zinchuk\Desktop\Ivan" />
-      <recent name="C:\Users\Uladzislau_Zinchuk\Desktop\Ivan\select\public" />
       <recent name="C:\Users\Uladzislau_Zinchuk\WebstormProjects\Ivan" />
       <recent name="C:\Users\Uladzislau_Zinchuk\WebstormProjects\Ivan\assets" />
+      <recent name="C:\Users\Uladzislau_Zinchuk\Desktop\Ivan" />
+      <recent name="C:\Users\Uladzislau_Zinchuk\Desktop\Ivan\select\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Uladzislau_Zinchuk\Desktop\Ivan" />
@@ -281,7 +286,11 @@
       <workItem from="1566561596769" duration="11956000" />
       <workItem from="1566735375472" duration="3767000" />
       <workItem from="1566913389469" duration="1159000" />
-      <workItem from="1566935724225" duration="6294000" />
+      <workItem from="1566935724225" duration="13113000" />
+      <workItem from="1569500253054" duration="2834000" />
+      <workItem from="1571063070769" duration="3806000" />
+      <workItem from="1579257382392" duration="1696000" />
+      <workItem from="1579678783011" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="update to new design">
       <created>1555599014043</created>
@@ -388,17 +397,40 @@
       <option name="project" value="LOCAL" />
       <updated>1566914541653</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="final fix">
+      <created>1566982355795</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1566982355795</updated>
+    </task>
+    <task id="LOCAL-00017" summary="final fix">
+      <created>1566982546881</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1566982546881</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246669000" />
+    <option name="totallyTimeSpent" value="262099000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09114858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09114858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,9 +439,9 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.049837485" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -457,10 +489,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="final fix" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/png/пв.png" />
-    <entry file="file://$PROJECT_DIR$/assets/png/вап.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/png/arrow-down.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -583,6 +611,20 @@
     <entry file="file://$PROJECT_DIR$/assets/png/background-form.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.cyclotron.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery.cyclotron.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/slick/slick/slick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35513">
@@ -616,22 +658,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="968" column="20" lean-forward="true" selection-start-line="968" selection-start-column="20" selection-end-line="968" selection-end-column="20" />
+        <state relative-caret-position="229">
+          <caret line="1465" column="28" lean-forward="true" selection-start-line="1464" selection-start-column="39" selection-end-line="1465" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="95" column="79" selection-start-line="95" selection-start-column="79" selection-end-line="95" selection-end-column="79" />
+        <state relative-caret-position="323">
+          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
           <folding>
+            <element signature="n#style#0;n#img#0;n#noscript#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#h1#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -639,7 +684,6 @@
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#span#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
@@ -647,18 +691,11 @@
             <element signature="n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#div#0;n#form#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#29863#30119#0" />
-            <element signature="e#27708#31365#0" />
-            <element signature="e#31094#31759#0" />
-            <element signature="e#31717#31974#0" />
-            <marker date="1566982154717" expanded="true" signature="11313:11811" ph="..." />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#10;n#body#0;n#html#0;n#!!top" />
+            <marker date="1579679003143" expanded="true" signature="12733:13231" ph="..." />
           </folding>
         </state>
       </provider>
